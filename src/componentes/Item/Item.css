@@ -1,7 +1,7 @@
 .cardProducto {
-    background-color: #f87575;
+    background-color: #ffffff;
     border-radius: 10px;
-    width: 15rem;
+    width: 20rem;
     padding: 1rem;
     margin: 1rem;
     display: flex;
@@ -17,7 +17,7 @@
 
 .btnProducto {
     background-color: #373d20;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
     width: 8rem;
     border-radius: 10px;

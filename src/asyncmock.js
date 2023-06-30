@@ -5,6 +5,8 @@ const misProductos = [
     { id: "4", nombre: "Mate Camionero", precio: 7500, img: "../img/mateCamionero1.jpg", idCat: "3" },
     { id: "5", nombre: "Mate Camionero", precio: 10000, img: "../img/mateCamionero2.jpg", idCat: "3" },
     { id: "6", nombre: "Mate Ceramica", precio: 10000, img: "../img/mateCeramica1.jpg", idCat: "4" },
+    { id: "7", nombre: "Termo Stanley", precio: 35000, img: "../img/termo1.jpg", idCat: "5" },
+    { id: "8", nombre: "Termos Metalicos", precio: 12000, img: "../img/termometalico.jpg", idCat: "5" }
 ]
 
 export const getProductos = () => {
