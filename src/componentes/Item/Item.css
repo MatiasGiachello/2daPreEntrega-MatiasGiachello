@@ -1,16 +1,19 @@
 .cardProducto {
     background-color: #ffffff;
-    border-radius: 10px;
-    width: 20rem;
+    border-radius: 15px;
+    width: 14rem;
     padding: 1rem;
     margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    height: 16rem;
 }
 
 .imgProducto {
-    width: 150px;
+    width: 80px;
     object-fit: contain;
 }
 

@@ -5,25 +5,25 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <header>
-      <Link to="/">
-        <h1>El Yerbatero</h1>
+      <Link style={{textDecoration:'none'}} to="/">
+        <h1 style={{marginLeft:'60px'}}>El Yerbatero</h1>
       </Link>
 
       <nav>
         <ul>
           <li>
-            <NavLink to="/categoria/2"> Imperiales </NavLink>
+            <NavLink style={{textDecoration:'none'}} to="/categoria/2"> Imperiales </NavLink>
           </li>
 
           <li>
-            <NavLink to="/categoria/3"> Camioneros </NavLink>
+            <NavLink style={{textDecoration:'none'}} to="/categoria/3"> Camioneros </NavLink>
           </li>
 
           <li>
-            <NavLink to="/categoria/4"> Ceramica </NavLink>
+            <NavLink style={{textDecoration:'none'}} to="/categoria/4"> Ceramica </NavLink>
           </li>
           <li>
-            <NavLink to="/categoria/5"> Termos </NavLink>
+            <NavLink style={{textDecoration:'none'}} to="/categoria/5"> Termos </NavLink>
           </li>
 
         </ul>
